@@ -1,9 +1,34 @@
-# Python cache
+# -----------------------
+# OS-specific
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Python / Django
+# -----------------------
 __pycache__/
 *.py[cod]
 *$py.class
-
-# SQLite DB
 db.sqlite3
 
+# -----------------------
+# Virtual Environments
+# -----------------------
+.venv/
+venv/
+env/
+
+# -----------------------
+# IDE / Editor
+# -----------------------
 .idea/
+.vscode/
+
+# -----------------------
+# Logs & Coverage
+# -----------------------
+*.log
+.coverage
+htmlcov/
+coverage/

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for football in football_ranking %}
+        {% if forloop.counter <= 3 %}
+            {{ forloop.counter }}위: <a href="/football/{{ forloop.counter0 }}">{{ football.Team }}</a><br>
+        {% endif %}
+    {% endfor %}
+
+</body>
+</html>
